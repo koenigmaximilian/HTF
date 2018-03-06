@@ -19,6 +19,8 @@ module Test.Framework.Pretty (
 
 where
 
+import Prelude hiding ((<>))
+
 import Text.PrettyPrint
 
 -- | A type class for pretty-printable things.
